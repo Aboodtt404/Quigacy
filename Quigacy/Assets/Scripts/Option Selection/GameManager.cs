@@ -20,16 +20,16 @@ public class GameManager : MonoBehaviour
         switch (selectedGameMode)
         {
             case 1:
-                numberOfPlayers = 2; // 1v1
+                numberOfPlayers = 0; // 1v1
                 break;
             case 3:
-                numberOfPlayers = 6; // 3v3
+                numberOfPlayers = 1; // 3v3
                 break;
             case 5:
-                numberOfPlayers = 10; // 5v5
+                numberOfPlayers = 2; // 5v5
                 break;
             default:
-                numberOfPlayers = 2; // Default to 1v1
+                numberOfPlayers = 0; // Default to 1v1
                 break;
         }
     }
